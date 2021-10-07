@@ -10,20 +10,48 @@
       background-size: cover;
     }
     </style>
+    <script>
+      function ierakstit1temu(){
+        let vieta = document.getElementById("mainigais")
+        vieta.innerHTML="<h2>Monohibrīdi</h2>    <p>random text 1 </p>"
+      }
+      function ierakstit2temu(){
+        let vieta = document.getElementById("mainigais")
+        vieta.innerHTML="<h2>Dzimumu saistība</h2>    <p>random text 2 </p>"
+      }
+      function ierakstit3temu(){
+        let vieta = document.getElementById("mainigais")
+        vieta.innerHTML="<h2>Kodominēšana</h2>    <p>random text 3 </p>"
+      }
+      function ierakstit4temu(){
+        let vieta = document.getElementById("mainigais")
+        vieta.innerHTML="<h2>Dihibrītiskā krustošana</h2>    <p>random text 4 </p>"
+      }
+      function ierakstit5temu(){
+        let vieta = document.getElementById("mainigais")
+        vieta.innerHTML="<h2>Nezināma tēma</h2>    <p>random text 5 </p>"
+      }
+      function ierakstit6temu(){
+        let vieta = document.getElementById("mainigais")
+        vieta.innerHTML="<h2>Jēdzieni</h2>    <p>random text 6 </p>"
+      }
+    </script>s
 </head>
 <body>
 
    <div class="container" style="background-color: rgba(240, 248, 255, 0.541); background-size: 100%; height: 100vh;">
     <h1 class="shadow-lg p-3 mb-5 bg-body rounded"> Insert lielais viersraksts</h1>
     <div class="container">
-    <img src="./photos/unnamed.png">
-    <img src="./photos/imageedit_73_8705391848.png">
-    <img src="./photos/imageedit_74_7308931082.png">
-    <img src="./photos/imageedit_75_9434419197.png">
-    <img src="./photos/imageedit_76_8077173772.png">
-    <img src="./photos/imageedit_77_2144910374.png">
-    <h2>mini virsraksts</h2>
-    <p>random text 1 </p>
-    <!-- Content here -->
+    <img onclick="ierakstit1temu()" src="./photos/unnamed.png">
+    <img  onclick="ierakstit2temu()" src="./photos/imageedit_73_8705391848.png">
+    <img  onclick="ierakstit3temu()" src="./photos/imageedit_74_7308931082.png">
+    <img onclick="ierakstit4temu()" src="./photos/imageedit_75_9434419197.png">
+    <img onclick="ierakstit5temu()"src="./photos/imageedit_76_8077173772.png">
+    <img onclick="ierakstit6temu()"src="./photos/imageedit_77_2144910374.png">
+    <div id="mainigais">
+      <h2>Monohibrīdi</h2>
+      <p>random text 1 </p>
+    </div>
+    
   </div>
 </Body>
